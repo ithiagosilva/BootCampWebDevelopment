@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+img {
+    border: 5px solid whitesmoke;
+    width: 40%;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+}
+
+#page {
+    text-align: center;
+    margin-top: 100px;
+}
