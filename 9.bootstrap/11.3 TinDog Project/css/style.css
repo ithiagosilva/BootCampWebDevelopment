@@ -1,0 +1,108 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#title {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-btns > h1 {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 95%;
+}
+
+#title > img {
+  align-self: flex-end;
+}
+
+.title-btns {
+  width: 400px;
+  margin-right: 8%;
+  margin-top: 8%;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 150px;
+  margin-right: 10px;
+  font-size: 16pt;
+  padding: 8px;
+}
+
+/*Testimonials*/
+
+.cont-test {
+  text-align: center;
+}
+
+.cont-test > img {
+  height: 100px; width: 100px;
+  border-radius: 50%;
+}
+
+#testimonial {
+  background-color: rgb(250, 250, 250);
+  margin: 0;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+
+.test-text {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.name-test {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-size: 16pt;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+/* Pricing */
+#pricing {
+  padding-top: 50px;
+}
+
+/* Footer */
+#footer {
+  margin-bottom: -100px;
+}
