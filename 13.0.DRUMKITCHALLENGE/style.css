@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    position: absolute;
+}
+
+img {
+    width: 100px;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.drumkit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+
+}
+
+.drumparts {
+    clip-path: margin-box;
+    height: 100px;
+   
+}
+
+.drumparts>p {
+    color: blueviolet;
+    font-size: 4rem;
+    margin-top: 1%;
+    margin-left: 2%;
+
+}
+
