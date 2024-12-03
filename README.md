@@ -1,2 +1,2 @@
 # BootCampWebDevelopment
-It's a course that covers a lot of web development
+Course taught by Dr Angela Yu from https://appbrewery.com/
