@@ -1,0 +1,18 @@
+<%- include('./partials/header.ejs') %>
+
+    <h1>Posts</h1>
+    <% if (locals.listaPosts) { %>
+        <ul class="posts">
+        <% for(let i = 0; i < listaPosts.length; i++ ) { %>
+            <li>
+                <h2> <%= listaPosts[i].titulo %> </h2>
+                <p> <%= listaPosts[i].conteudo %> </p>
+                <a href="/editar">Editar</a>
+            </li>
+        <% } %>
+        </ul>
+    <% } %>
+
+    <a href="/novo-post">Novo post</a>
+
+<%- include('./partials/footer.ejs') %>
