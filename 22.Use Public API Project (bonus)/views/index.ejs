@@ -1,0 +1,25 @@
+<%- include('./partials/header.ejs') %>
+
+    <section class="app">
+        <div class="card">
+            <% if (locals.joke) { %>
+                <div class="front">
+                    <h1> <%= joke.setup %></h1>
+                    <button type="button" id="reveal">Reveal</button>
+                </div>
+                <div class="verse">
+                    <h1> <%= joke.delivery %></h1>
+                    <figure>
+                        <img src="<%= jokeImg %>" alt="">
+                    </figure>
+                </div>
+            <% } else { %>
+                <h1>Do You Wanna Hear a Joke?</h1>
+            <% } %>
+        </div>
+        <form action="/piada" method="get">
+            <button type="submit">Tell me a joke</button>
+        </form>
+    </section>
+
+<%- include('./partials/footer.ejs') %>
